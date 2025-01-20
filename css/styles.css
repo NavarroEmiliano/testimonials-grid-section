@@ -13,6 +13,8 @@ html {
 }
 
 body {
+  display: grid;
+  place-items: center;
   min-block-size: 100vh;
   font-size: 13px;
   font-family: "Barlow Semi Condensed", serif;
@@ -28,9 +30,9 @@ picture {
 .main-container {
   display: grid;
   grid-template-columns: 1;
-  place-items: center;
-  padding-block: 4.5rem;
+  align-items: center;
   gap: 1.5rem;
+  margin-block: 4.5rem;
 }
 .main-container article {
   display: grid;
@@ -108,6 +110,30 @@ picture {
 }
 .main-container .patrick .title {
   color: #ecf2f8;
+}
+
+@media (min-width: 69rem) {
+  .main-container {
+    margin-inline: auto;
+    max-inline-size: 69rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2;
+    place-items: unset;
+    margin-block: auto;
+  }
+  .main-container article {
+    max-inline-size: none;
+  }
+  .main-container .daniel {
+    grid-column: 1/3;
+  }
+  .main-container .kira {
+    grid-column: 4/5;
+    grid-row: 1/3;
+  }
+  .main-container .patrick {
+    grid-column: 2/4;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
