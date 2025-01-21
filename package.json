@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass sass:public/css"
+    "build": "sass sass:public/css",
+    "watch:css": "sass --watch sass:public/css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.83.4"
+    "sass": "1.83.4"
   }
 }

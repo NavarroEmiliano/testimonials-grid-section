@@ -20,3 +20,4 @@ README-template.md
 /node_modules/
 /design
 /css
+pnpm-lock.yaml
