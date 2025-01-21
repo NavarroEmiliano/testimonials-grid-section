@@ -69,11 +69,12 @@ picture {
 }
 .main-container article .title {
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 .main-container article .description {
   opacity: 70%;
   line-height: 1.4;
+  font-weight: 500;
 }
 .main-container .daniel {
   position: relative;
@@ -81,7 +82,7 @@ picture {
   color: #ffffff;
 }
 .main-container .daniel .profile-box img {
-  border: 2px solid #a775f1;
+  outline: 2px solid #a775f1;
 }
 .main-container .daniel .quotation {
   position: absolute;
@@ -106,7 +107,7 @@ picture {
   background-color: #19202d;
 }
 .main-container .patrick .profile-box img {
-  border: 2px solid #733fc8;
+  outline: 2px solid #733fc8;
 }
 .main-container .patrick .title {
   color: #ecf2f8;

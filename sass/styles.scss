@@ -85,12 +85,13 @@ picture {
 
         .title {
             font-size: 1.25rem;
-            font-weight: 500;
+            font-weight: 600;
         }
 
         .description {
             opacity: 70%;
             line-height: 1.4;
+            font-weight: 500;
         }
     }
 
@@ -100,7 +101,7 @@ picture {
         color: $white;
 
         .profile-box img {
-            border: 2px solid $violet;
+            outline: 2px solid $violet;
         }
 
         .quotation {
@@ -133,7 +134,7 @@ picture {
 
         .profile-box {
             img {
-                border: 2px solid $moderate-violet;
+                outline: 2px solid $moderate-violet;
             }
         }
 
