@@ -17,5 +17,6 @@
 .prettierignore
 style-guide.md
 README-template.md
-node_modules/
-design
+/node_modules/
+/design
+/css
