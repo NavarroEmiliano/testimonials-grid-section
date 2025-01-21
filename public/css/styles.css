@@ -35,7 +35,7 @@ picture {
 }
 .main-container article {
   display: grid;
-  padding: 1.9rem;
+  padding: 2rem;
   max-inline-size: 20.5rem;
   border-radius: 0.5rem;
   gap: 1rem;
