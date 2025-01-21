@@ -73,7 +73,7 @@ picture {
 }
 .main-container article .description {
   opacity: 70%;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 .main-container .daniel {
   position: relative;
@@ -85,7 +85,7 @@ picture {
 }
 .main-container .daniel .quotation {
   position: absolute;
-  inset-inline-end: 1.75rem;
+  inset-inline-end: 2.25rem;
   z-index: -1;
   inline-size: clamp(4rem, 30%, 6.375rem);
 }
@@ -129,6 +129,9 @@ picture {
   }
   .main-container .daniel {
     grid-column: 1/3;
+  }
+  .main-container .daniel .quotation {
+    inset-inline-end: 5.5rem;
   }
   .main-container .kira {
     grid-column: 4/5;
